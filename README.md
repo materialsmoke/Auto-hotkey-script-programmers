@@ -1,6 +1,6 @@
 # Auto-hotkey-script-programmers
-Auto hotkey script for windows programmers
 
+### Autohotkey script for windows programmers
 Download Autohotkey from here https://www.autohotkey.com/
 
 Download arrows.ahk from this repository and put it in your startup
@@ -27,8 +27,17 @@ Caps lock => turn off Caps lock
 <br>
 <br>
 <br>
-For Linux programmers:
-<br>
+### For Linux programmers:
+##### ubuntu:
+disable capslock with `ubuntu tweak`
+
+download the autokey-ubuntu.zip and extract it in:
+
+/home/{your_username}/.config/
+
+put autokey in the startup inside the autokey settings
+
+##### kubuntu:
 change capslock to hyper with xmodmap:
 <br>
 xmodmap -e "keysym Caps_Lock = Hyper_L"
@@ -56,9 +65,8 @@ make a file: mystartup.sh in /home/mystartup.sh<br>
 save it and in the windows menu type: <br>
 `autostart`<br>
 click on the `add` > `add login script` and add mystartup.sh<br>
-
 <br><br><br>
-Mac programmers:<br>
+### Mac programmers:
 https://github.com/madslundt/keybindings
 
 Or
