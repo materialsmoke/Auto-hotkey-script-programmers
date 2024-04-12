@@ -1,4 +1,10 @@
-SetCapsLockState, Off
+#NoEnv  						; Recommended for performance and compatibility with future AutoHotkey releases.
+SendMode Input 					; Recommended for new scripts due to its superior speed and reliability.
+
+SetCapsLockState, alwaysoff
+
+$~*Capslock::
+return
 
 capslock & j::
 Send,{left}
@@ -32,33 +38,49 @@ capslock & n::
 Send,{esc}
 return
 
-capslock & m::
-Send,=
+capslock & s::
+Send,^{left}
 return
 
-capslock & '::
-Send,"
+capslock & f::
+Send,^{right}
 return
 
-capslock & ,::
-Send,-
+capslock & d::
+Send,^{d}
 return
 
-capslock & space::
-Send,^{space}
+capslock & y::
+Send,^{backspace}
 return
 
 capslock & enter::
 Send,{esc}{end}{enter}
 return
 
-capslock::
-SetCapsLockState, Off
+capslock & g::
+Send,{delete}
 return
 
-$~*Capslock::
+capslock & q::
+Send,^+{up}
+return
+
+capslock & w::
+Send,^+{down}
+return
+
+capslock & e::
+Send,!{up}
+return
+
+capslock & r::
+Send,!{down}
+return
+
+capslock & t::
+Send,^{delete}
 return
 
 AppsKey::SendInput, {Ctrl Down}
 AppsKey Up::SendInput, {Ctrl Up}
-
