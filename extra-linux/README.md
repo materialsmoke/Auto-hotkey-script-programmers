@@ -3,6 +3,12 @@
 sudo apt update && sudo apt upgrade
 sudo apt install vim && sudo apt install curl && sudo apt install git
 ```
+```
+ssh-keygen
+
+// the permission should be 600 for id_rsa and 644 for the rest of the files
+```
+
 Chrome (Using the Official Google Chrome Repository):
 ```
 sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list' 
