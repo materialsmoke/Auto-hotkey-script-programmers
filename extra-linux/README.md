@@ -38,7 +38,7 @@ From Ubuntu Software install:
 - dbeaver-ce
 - autokey
 - telegram
-- 
+- caffeine
 
 
 ### Linux 4k monitor problem:
