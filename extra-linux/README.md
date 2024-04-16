@@ -53,21 +53,18 @@ Every time linux goes to blank screen or sleep, it's kind of impossible to bring
 
 There is another way instead of turning the monitor off, we can decrease the brightness to minimum and if we start a program called `caffeine` it will prevent the brightness decrease.
 
-#### Step 1:
-`myblankscreen.sh` and `mystartup.sh` should be in the `/home/alex` directory.
+Copy brightnesscontrol folder and paste it in /home/alex or what ever username is, then install it.
 
-install supervisor:
-```
-sudo apt install supervisor
-```
-in this path `/etc/supervisor/conf.d` we should add `mystartup.conf`
-```
-[program:mystartup]
-command=bash /home/alex/mystartup.sh
-user=alex
-stderr_logfile=/var/log/mystartup.err.log
-stdout_logfile=/var/log/mystartup.out.log
-```
-Note: the user=alex will help to control the display by supervisor.
+After install restart the 
 
+### Shortcuts
 
+In the setting->keyboard->Keyboard Shortcuts
+
+super i => maximize the window
+super k => restore the size of the window
+
+super r => go to next workspace
+super e => go to previous workspace
+super w => move window to next workspace
+super q => move window to previous workspace
