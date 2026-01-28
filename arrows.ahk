@@ -22,11 +22,11 @@ capslock & l::
 Send,{right}
 return
 
-capslock & o::
+capslock & r::
 Send,{end}
 return
 
-capslock & u::
+capslock & w::
 Send,{home}
 return
 
@@ -60,22 +60,6 @@ return
 
 capslock & g::
 Send,{delete}
-return
-
-capslock & q::
-Send,^+{up}
-return
-
-capslock & w::
-Send,^+{down}
-return
-
-capslock & e::
-Send,!{up}
-return
-
-capslock & r::
-Send,!{down}
 return
 
 capslock & t::
