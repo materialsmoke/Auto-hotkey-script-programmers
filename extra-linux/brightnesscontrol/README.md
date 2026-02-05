@@ -1,6 +1,6 @@
 ##### Installation:
 
-it is working on wayland and X11 desktop
+It is working on wayland and X11 desktop
 
 copy the brightnesscontrol folder into /home/{$USER}
 
