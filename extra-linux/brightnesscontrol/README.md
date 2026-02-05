@@ -13,3 +13,5 @@ After that run:
 ```
 sudo bash ./second-install-sudo.sh
 ```
+
+restart the computer
