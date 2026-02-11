@@ -45,4 +45,9 @@ x = C-x
 z = C-z
 w = home
 y = C-backspace
+n = esc
+```
+reload keyd:
+```
+sudo keyd reload
 ```
